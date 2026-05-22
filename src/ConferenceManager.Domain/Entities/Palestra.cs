@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConferenceManager.Domain.Entities
+{
+    public class Palestra
+    {
+        public string Titulo { get; private set; }
+        public int Duracao { get; private set; }
+
+        public Palestra(string titulo, int duracao)
+        {
+            Titulo = titulo;
+            Duracao = duracao;
+        }
+    }
+}
