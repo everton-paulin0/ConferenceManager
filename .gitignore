@@ -427,6 +427,10 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
-*bin/ obj/ .vs/ 
+bin/ 
+obj/ 
+.vs/ 
 *.user 
 *.suo
+=======
+>>>>>>> a8055427c3d685a10b320d25781e372f6f08a2e4
